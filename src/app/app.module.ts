@@ -8,16 +8,21 @@ import { ContadorModule } from './contador/contador.module';
 import { HeroesModule } from './heroes/heroes.module';
 //import { ContadorComponent } from './contador/contador.module';
 
+import { MainPageComponent } from './musica/main-page/main-page.component';
+import { MusicaModule } from './musica/musica.module';
+
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    //MainPageComponent
  
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HeroesModule,
-    ContadorModule
+    ContadorModule,
+    MusicaModule
     
     
   ],

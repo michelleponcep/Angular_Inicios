@@ -39,3 +39,19 @@
   .p-1 {
     padding: 1px;
   }
+
+  /* para musica */
+  .row {
+    display: flex;
+  }
+
+  .col {
+    flex-grow: 1;
+    margin-right: 5px;
+    
+  }
+
+  input {
+    display: block;
+    margin: 5px;
+  }
